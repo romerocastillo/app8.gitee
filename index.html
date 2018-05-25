@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title> App8 Mostrar aplicaciones</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app1.min.css"/>
+<link rel="stylesheet" href="css/tema-app5.min.css"/>
+<link rel="stylesheet" href="css/tema-app7.min.css"/>
+<link rel="stylesheet" href="css/tema-app7.min.css"/>
+<link rel="stylesheet" href="css/tema-app8.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones1.js"> </script>
+<script src="js/acciones5.js"> </script>
+<script src="js/acciones7.js"> </script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+</head>
+<body>
+ 
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-add-back-text="Regresar" data-add-back-theme="a">
+   <h1>App8 Mostrar aplicaciones</h1>
+  </div>
+  
+   <div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="index1.html" target="_self">
+          <h2>APLICACIÓN 01</h2>
+          <p>(-Datos del Dispositivo-)</p>
+        
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+        <a href="index5.html" target="_self">
+         <h2> APLICACIÓN 05</h2>
+         <p>(-Beepear y Vibrar-)</p>
+       </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="index7.html" target="_self">
+         <h2>APLICACIÓN 07</h2>
+         <p>(-Deslizar-)</p>
+       </a>
+     </li>
+     
+    </ul>
+   </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+     <h4>App8 ACCIONES</h4>
+     <h4>Liliana Michell Romero Castillo</h4>
+  </div>
+ </div>
+</div>
+
+
+
+ 
+  
+</body>
+
+</html>
